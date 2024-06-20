@@ -1,0 +1,262 @@
+body{
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Header */
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+}
+.header_main_icon{
+    display: flex;
+    top: 80px;
+    align-items: center;
+    gap: 8px;
+}
+.logo_star{
+    background-image: url(../img/star.png);
+    background-repeat: no-repeat;
+    padding: 12px;
+}
+.header_side_options{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Main */
+main{
+    width: 100%;
+}
+main h2{
+    font-size:x-large;
+    font-weight: bold;
+}
+main h3{
+    font-weight:600;
+    color:darkolivegreen;
+}
+/* Main main */
+.main_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+.main_title{
+    font-size:xx-large;
+    color: olive;
+}
+.main_subtitle{
+    width: 80%;
+    margin: auto;
+}
+.main_elements{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+.main_links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.profile_img img{
+    width: 300px;
+    border-radius: 50%;
+}
+/* Main Sobre mi */
+.main_Sobre_mi{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 0;
+}
+.main_Sobre_mi div{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+/* main skills */
+.main_Skills{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 35px 0;
+}
+.lista_skills{
+    display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+.skills_items{
+    display: flex;
+    flex-direction: column;
+    background-color: darkolivegreen;
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+
+
+    align-items:flex-start;
+    justify-content: end;
+}
+.skills_items i{
+    font-size: 30px;
+    padding: 5px;
+}
+/* main hobbies */
+.main_Hobbies{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 35px 0;
+}
+.lista_hobbies{
+    display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+.hobbies_items{
+    display: flex;
+    flex-direction: column;
+    background-color: darkolivegreen;
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+
+
+    align-items:flex-start;
+    justify-content: end;
+}
+.hobbies_items i{
+    font-size: 30px;
+    padding: 5px;
+}
+/* main Formacion */
+.main_Formacion{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0;
+}
+
+.main_Formacion p{
+    font-size: small;
+}
+.lista_formaciones{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:end;
+    justify-content: space-around;
+    gap: 5px;
+}
+.lista_formaciones img{
+    width: 300px;
+    flex-grow: 1;
+}
+/* main proyectos */
+.main_Proyectos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 35px 0;
+}
+.main_Proyectos p{
+    font-size: small;
+}
+.lista_proyectos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+.lista_proyectos li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.lista_proyectos img{
+    width: 900px;
+}
+.lista_proyectos li:nth-child(2n){
+    flex-direction: row-reverse;
+}
+.botones{
+    background-color: olive;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* main contacto */
+.main_Contacto{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contacto_txt{
+    width: 40%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacto_img img{
+    width: 500px;
+}
+
+.contacto_form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contacto_form div{
+    display:flex;
+    align-items: center;
+}
+
+
+input{
+    width: 100%;
+    display: flex;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 6px 30px;
+    font-family: Poppins;
+    box-sizing: border-box
+}
+
+.footer{
+    
+}
